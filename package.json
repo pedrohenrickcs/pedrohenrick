@@ -1,5 +1,5 @@
 {
-  "name": "pedrohenrick",
+  "name": "pedrohenrickcs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
+    "git-cz": "^4.9.0",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18"
