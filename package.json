@@ -1,5 +1,4 @@
 {
-  "homepage": "https://pedrohenrickcs.github.io/pedrohenrick",
   "name": "pedrohenrick",
   "version": "0.1.0",
   "private": true,
@@ -7,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d dist"
+    "lint": "next lint"
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
