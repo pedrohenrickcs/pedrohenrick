@@ -1,10 +1,13 @@
 import Header from '@/components/Header';
-import './styles/globals.css'
+import Title from '@/components/Title';
 
 const Home = () => {
 
   return (
-    <Header />
+    <>
+      <Header />
+      <Title />
+    </>
   )
 };
 
