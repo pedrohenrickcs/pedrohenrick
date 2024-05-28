@@ -1,12 +1,10 @@
-import Header from '@/components/Header';
-import Title from '@/components/Title';
+
+import Profile from '@/components/Profile';
 
 const Home = () => {
-
   return (
     <>
-      <Header />
-      <Title />
+      <Profile />
     </>
   )
 };

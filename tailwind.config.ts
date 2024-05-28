@@ -8,10 +8,15 @@ const config: Config = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontSize: {
+      base: '1rem',
+      xl: '1.5rem'
+    },
     extend: {
       colors: {
         'primary-color': '#181818',
         'secondary-color': '#202021',
+        'tertiary-color': '#ce9178',
       },
       zIndex: {
         '-10': '-10',

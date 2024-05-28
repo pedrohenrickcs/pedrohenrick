@@ -1,6 +1,4 @@
-import '../styles/globals.css'
-
-export default function Projects() {
+export default function Stacks() {
   return (
     <div>Stacks</div>
   )
