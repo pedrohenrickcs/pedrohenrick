@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 const Header = () => {
+  console.log('env', process.env.NODE_ENV);
+  
   return ( 
     <nav className="bg-secondary-color">
       <div className="container text-xl items-center flex mx-auto px-4 p-4">
