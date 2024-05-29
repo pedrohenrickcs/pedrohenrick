@@ -4,7 +4,7 @@ const Profile = () => {
   const imageProfile = `${process.env.NEXT_PUBLIC_ENV === 'development' ? "/me.jpg" : "./me.jpg"}`
   
   return (
-    <div className="container mx-auto px-4 p-4 text-center flex justify-around items-center flex-col md:flex-row">
+    <div className="container h-[70vh] mx-auto px-4 p-4 text-center flex justify-around items-center flex-col md:flex-row">
 
       <div className="container md:w-2/5 mx-auto px-4 p-4 text-center">
         <Image src={imageProfile} alt="me" width={250} height={128} className="rounded-3xl m-auto"/>
@@ -12,8 +12,8 @@ const Profile = () => {
         <h2 className="text-base text-tertiary-color">Front end Developer</h2>
       </div>
 
-      <div className="p-4 w-full md:text-left md:w-3/5 text-base ">
-        <h2 className="text-xl font-medium text-tertiary-color">Sobre mim</h2>
+      <div className="p-4 w-full md:text-left md:text-sm md:w-1/2 text-base">
+        <h2 className="text-xl font-medium text-tertiary-color">Olá, eu me chamo Pedro 👋🏻</h2><br />
         Sou um desenvolvedor frontend apaixonado por criar experiências digitais envolventes e
         intuitivas. Com uma sólida formação em desenvolvimento web e uma paixão por inovação,
         estou sempre buscando novos desafios para aprimorar minhas habilidades e contribuir para

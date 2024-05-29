@@ -11,7 +11,7 @@ const config: Config = {
     fontSize: {
       xs: '0.875rem',
       base: '1rem',
-      sm: '1.25rem',
+      sm: '1.125rem',
       xl: '1.5rem'
     },
     extend: {
@@ -23,6 +23,9 @@ const config: Config = {
       zIndex: {
         '-10': '-10',
       },
+      height: {
+        'h-screen': '70vh'
+      }
     },
   },
   plugins: [],
