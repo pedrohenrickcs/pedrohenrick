@@ -1,4 +1,5 @@
 import Icon from "@/assets/icons/icons";
+import { IconEnum } from "@/enums/IconEnum";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,25 +17,25 @@ const Profile = () => {
         <div className="flex mt-4 justify-center">
           <Link href='https://www.linkedin.com/in/pedro-henrickcs' target="_blank">
             <span className="flex mr-2">
-              <Icon name="linkedin" />
+              <Icon name={IconEnum.Linkedin} />
             </span>
           </Link>
 
           <Link href='https://github.com/pedrohenrickcs' target="_blank">
             <span className="flex mx-2">
-              <Icon name="github" />
+              <Icon name={IconEnum.Github} />
             </span>
           </Link>
 
           <Link href='https://wa.me/5511958977580' target="_blank">
             <span className="flex mx-2">
-              <Icon name="whatsapp" />
+              <Icon name={IconEnum.Whatsapp} />
             </span>
           </Link>
 
           <Link href='https://www.instagram.com/pedrohenrickcs' target="_blank">
             <span className="flex mx-2">
-              <Icon name="instagram" />
+              <Icon name={IconEnum.Instagram} />
             </span>
           </Link>
 

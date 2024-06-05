@@ -1,10 +1,14 @@
+import { IconEnum } from '@/enums/IconEnum'
 import Github from './github'
 import Instagram from './instagram'
+import JavaScript from './javascript'
 import Linkedin from './linkedin'
 import Whatsapp from './whatsapp'
+import Html from './html'
+import Css from './css'
 
 export interface IconType {
-  name: string
+  name: IconEnum
   size?: number
   color?: string
   className?: string
@@ -21,6 +25,12 @@ const Icon = ({ name, size }: IconType) => {
       return <Whatsapp size={size} />
     case 'instagram':
       return <Instagram size={size} />
+    case 'javascript':
+      return <JavaScript size={size} />
+    case 'html':
+      return <Html size={size} />
+    case 'css':
+      return <Css size={size} />
     default:
       return null
   }

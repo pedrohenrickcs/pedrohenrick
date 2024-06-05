@@ -1,5 +1,7 @@
+import Stack from "@/components/Stack";
+
 export default function Stacks() {
   return (
-    <div>Stacks</div>
+   <Stack />
   )
 }
