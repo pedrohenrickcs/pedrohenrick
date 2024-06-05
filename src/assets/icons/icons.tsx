@@ -1,4 +1,5 @@
 import Github from './github'
+import Instagram from './instagram'
 import Linkedin from './linkedin'
 import Whatsapp from './whatsapp'
 
@@ -18,6 +19,8 @@ const Icon = ({ name, size }: IconType) => {
       return <Github size={size} />
     case 'whatsapp':
       return <Whatsapp size={size} />
+    case 'instagram':
+      return <Instagram size={size} />
     default:
       return null
   }

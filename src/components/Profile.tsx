@@ -31,6 +31,13 @@ const Profile = () => {
               <Icon name="whatsapp" />
             </span>
           </Link>
+
+          <Link href='https://www.instagram.com/pedrohenrickcs' target="_blank">
+            <span className="flex mx-2">
+              <Icon name="instagram" />
+            </span>
+          </Link>
+
         </div>
       </div>
 
