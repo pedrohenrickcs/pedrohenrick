@@ -9,5 +9,7 @@ export enum IconEnum {
   Css = 'css',
   Sass = 'sass',
   Nextjs = 'nextjs',
-  Tailwind = 'tailwind'
+  Tailwind = 'tailwind',
+  Reactjs = 'reactjs',
+  Storybook = 'storybook'
 }

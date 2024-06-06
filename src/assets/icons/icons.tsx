@@ -10,6 +10,8 @@ import Sass from './sass'
 import Typescript from './typescript'
 import Nextjs from './nextjs'
 import Tailwind from './tailwind'
+import Reactjs from './react'
+import Storybook from './storybook'
 
 export interface IconType {
   name: IconEnum
@@ -43,6 +45,10 @@ const Icon = ({ name, size }: IconType) => {
       return <Nextjs size={size} />
     case 'tailwind':
       return <Tailwind size={size} />
+    case 'reactjs':
+      return <Reactjs size={size} />
+    case 'storybook':
+      return <Storybook size={size} />
     default:
       return null
   }
