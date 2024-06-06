@@ -6,6 +6,10 @@ import Linkedin from './linkedin'
 import Whatsapp from './whatsapp'
 import Html from './html'
 import Css from './css'
+import Sass from './sass'
+import Typescript from './typescript'
+import Nextjs from './nextjs'
+import Tailwind from './tailwind'
 
 export interface IconType {
   name: IconEnum
@@ -31,6 +35,14 @@ const Icon = ({ name, size }: IconType) => {
       return <Html size={size} />
     case 'css':
       return <Css size={size} />
+    case 'sass':
+      return <Sass size={size} />
+    case 'typescript':
+      return <Typescript size={size} />
+    case 'nextjs':
+      return <Nextjs size={size} />
+    case 'tailwind':
+      return <Tailwind size={size} />
     default:
       return null
   }
