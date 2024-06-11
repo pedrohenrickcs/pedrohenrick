@@ -12,6 +12,13 @@ import Nextjs from './nextjs'
 import Tailwind from './tailwind'
 import Reactjs from './react'
 import Storybook from './storybook'
+import Webpack from './webpack'
+import Gulp from './gulp'
+import Npm from './npm'
+import Pnpm from './pnpm'
+import Eslint from './eslint'
+import Prettier from './prettier'
+import Git from './git'
 
 export interface IconType {
   name: IconEnum
@@ -49,6 +56,20 @@ const Icon = ({ name, size }: IconType) => {
       return <Reactjs size={size} />
     case 'storybook':
       return <Storybook size={size} />
+    case 'webpack':
+      return <Webpack size={size} />
+    case 'gulp':
+      return <Gulp size={size} />
+    case 'npm':
+      return <Npm size={size} />
+    case 'pnpm':
+      return <Pnpm size={size} />
+    case 'eslint':
+      return <Eslint size={size} />
+    case 'prettier':
+      return <Prettier size={size} />
+    case 'git':
+      return <Git size={size} />
     default:
       return null
   }

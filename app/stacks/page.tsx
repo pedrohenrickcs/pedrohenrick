@@ -41,6 +41,40 @@ export default function Stacks() {
             }
           ]}
       />
+      <Stack
+          title='Ferramentas e pacotes:'
+          icons={[
+            {
+              icon: IconEnum.Webpack,
+              text: 'Webpack'
+            },
+            {
+              icon: IconEnum.Gulp,
+              text: 'Gulp'
+            },
+            {
+              icon: IconEnum.Npm,
+              text: 'Npm'
+            },
+            {
+              icon: IconEnum.Eslint,
+              text: 'Eslint'
+            },
+            {
+              icon: IconEnum.Prettier,
+              text: 'Prettier'
+            },
+          ]}
+      />
+      <Stack
+        title='Versionamento de Código:'
+          icons={[
+            {
+              icon: IconEnum.Git,
+              text: 'Git'
+            },
+          ]}
+      />
     </>
   )
 }

@@ -11,5 +11,12 @@ export enum IconEnum {
   Nextjs = 'nextjs',
   Tailwind = 'tailwind',
   Reactjs = 'reactjs',
-  Storybook = 'storybook'
+  Storybook = 'storybook',
+  Webpack = 'webpack',
+  Gulp = 'gulp',
+  Npm = 'npm',
+  Pnpm = 'pnpm',
+  Eslint = 'eslint',
+  Prettier = 'prettier',
+  Git = 'git',
 }
