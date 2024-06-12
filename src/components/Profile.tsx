@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Profile = () => {
-  const imageProfile = `${process.env.NEXT_PUBLIC_ENV === 'development' ? "/me.jpg" : "./me.jpg"}`
+  const imageProfile = `${process.env.NEXT_PUBLIC_ENV === 'development' ? "/me_v1.jpg" : "./me_v1.jpg"}`
   
   return (
     <div className="container h-[70vh] mx-auto px-4 p-4 text-center flex justify-around items-center flex-col md:flex-row">
