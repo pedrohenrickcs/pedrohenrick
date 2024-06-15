@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Pedro Henrick',
+  icons: 'https://pedrohenrickcs.github.io/icons/icon-48x48.png?v=1ed0ee1a7f073eadd2a5fe72b0a19f9b'
 }
 
 export default function RootLayout({
