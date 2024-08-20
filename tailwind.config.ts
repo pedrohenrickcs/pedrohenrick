@@ -20,6 +20,7 @@ const config: Config = {
         'primary-color': '#181818',
         'secondary-color': '#202021',
         'tertiary-color': '#ce9178',
+        'hover-color': '#383636',
       },
       zIndex: {
         '-10': '-10',

@@ -18,7 +18,7 @@ const Stack = ({ title, icons }: StackType) => {
 
         <div className="flex flex-row md:justify-between my-7 flex-wrap justify-center">
           {icons.map((item, index) => (
-            <div className="text-center m-6 md:first:ml-0" key={index}>
+            <div className="text-center m-6 md:first:ml-0 bg-secondary-color py-4 px-8 rounded cursor-pointer hover:bg-hover-color hover:transition-colors" key={index}>
               <span className="flex justify-center">
                 <Icon name={item.icon} />
               </span>
